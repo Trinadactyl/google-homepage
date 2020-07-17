@@ -1,17 +1,78 @@
+html, body, main {
+  overflow: auto;
+  height: 100%;
+}
+
+main {
+  position: relative;
+}
+
 #logo {
+  position: relative;
+  top: 100px;
   display: block;
-  margin-top: 20%;
-  width: 30%;
+  height: 70px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #search {
+  position: relative;
+  top: 100px;
   display: block;
   margin: 20px;
-  width: 50%;
+  width: 55%;
   height:35px;
   margin-left: auto;
   margin-right: auto;
+  border: thin gray solid;
   border-radius: 30px;
+}
+
+nav {
+  display: block;
+  overflow: auto;
+}
+
+#nav-left {
+  float: left;
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 10px;
+}
+
+#nav-right {
+  position: relative;
+  float: right;
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 10px;
+}
+
+div a {
+  padding: 4px;
+  text-decoration: none;
+  color: rgb(73, 71, 71);
+  top: 2px;
+  left: 0px;
+
+}
+div a:hover {
+  text-decoration: underline;
+}
+
+#blue-btn {
+  background-color: #4484F1;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px;
+  border: none;
+  border-radius: 2px;
+}
+#grid {
+  height: 14px;
+  width: 14px;
+  color: rgb(73, 71, 71);
+  padding: 8px;
 }
