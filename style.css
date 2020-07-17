@@ -29,6 +29,10 @@ main {
   border-radius: 30px;
 }
 
+#search:hover {
+  /* add box shadow */
+}
+
 nav {
   display: block;
   overflow: auto;
