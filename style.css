@@ -21,18 +21,36 @@ main {
   top: 100px;
   display: block;
   margin: 20px;
-  width: 55%;
+  width: 400px;
   height:35px;
   margin-left: auto;
   margin-right: auto;
-  border: thin gray solid;
+  border: 1px solid rgba(175, 174, 174, 0.616) ;
   border-radius: 30px;
 }
 
 #search:hover {
-  /* add box shadow */
+  box-shadow:  4px 4px 4px 4px rgb(184, 183, 183);
 }
 
+.search-btns {
+  position: absolute;
+  left: 250px;
+  top: 250px;
+  padding: 10px;
+ 
+}
+.search {
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(73, 71, 71);;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+}
+.search:hover {
+  border: 1px solid #C1C1C1;
+}
 nav {
   display: block;
   overflow: auto;
