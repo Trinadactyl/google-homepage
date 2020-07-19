@@ -1,7 +1,4 @@
-html, body, main {
-  overflow: auto;
-  height: 100%;
-}
+
 
 main {
   position: relative;
@@ -18,8 +15,10 @@ main {
   margin-right: auto;
 }
 
-#search {
+#search-bar {
   position: relative;
+  padding-left: 10px;
+  color: gray;
   top: 100px;
   display: block;
   margin: 20px;
@@ -31,7 +30,10 @@ main {
   border-radius: 30px;
 }
 
-#search:hover {
+#search-bar:hover {
+  box-shadow:  1px 1px 6px rgb(184, 183, 183);
+}
+#search-bar:click {
   box-shadow:  4px 4px 4px 4px rgb(184, 183, 183);
 }
 
@@ -64,14 +66,14 @@ nav {
   overflow: auto;
 }
 
-#nav-left {
+.left {
   float: left;
   font-family: sans-serif;
   font-size: 10px;
   padding: 10px;
 }
 
-#nav-right {
+.right {
   position: relative;
   float: right;
   font-family: sans-serif;
@@ -96,15 +98,33 @@ div a:hover {
 #blue-btn {
   background-color: #4484F1;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   padding: 6px;
   border: none;
   border-radius: 2px;
+  width: 50px;
 }
 #grid {
   height: 14px;
   width: 14px;
   color: rgb(73, 71, 71);
-  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+footer {
+  /* display: flex;
+  flex-direction: row; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:#F2F2F2;
+  height: 40px;
+  border: solid .5px rgba(197, 197, 197, 0.37)
+}
+footer a {
+  font-size: 12px;
+  color: gray;
 }
